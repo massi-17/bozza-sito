@@ -1,0 +1,198 @@
+[
+	{
+		"id": 1,
+		"title": "Age Calculator",
+		"img": "assets/img/agecalculator.png",
+		"outline": "Web app that allows you to calculate your age based on the date of birth you provide.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": false,
+			"bootstrap": false,
+			"react": true
+		},
+		"github": "https://github.com/massi-17/age-calculator",
+		"demo": "https://www.massidev.com/portfolio/age-calculator/"
+	},
+	{
+		"id": 2,
+		"title": "Minesweeper",
+		"img": "assets/img/minesweeper.png",
+		"outline": "Puzzle game that involves clearing a minefield without detonating any hidden mines.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": true,
+			"bootstrap": false,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/minesweeper-app",
+		"demo": "https://www.massidev.com/portfolio/minesweeper/"
+	},
+	{
+		"id": "rockpaperscissors",
+		"title": "Rock Paper Scissors",
+		"img": "assets/img/rockpaperscissors.png",
+		"outline": "Responsive App of the famous rock paper scissors game.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"sass": true,
+			"javascript": true,
+			"bootstrap": false,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/rock-paper-scissors",
+		"demo": "https://www.massidev.com/portfolio/rock-paper-scissors/"
+	},
+	{
+		"id": 4,
+		"title": "iPhone Note",
+		"img": "assets/img/iphone-note.png",
+		"outline": "Web app clone that allows users to create and save their notes on the local storage. This app provides a seamless and intuitive experience.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": true,
+			"bootstrap": false,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/iphone-note-app",
+		"demo": "https://www.massidev.com/portfolio/iphone-note-app"
+	},
+	{
+		"id": 5,
+		"title": "Playstation website clone",
+		"img": "assets/img/playstation-clone.png",
+		"outline": "The PlayStation Clone website aims to replicate the design and functionality of the official PlayStation website.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": true,
+			"bootstrap": true,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/playstation-clone",
+		"demo": "https://www.massidev.com/portfolio/playstation-clone/"
+	},
+	{
+		"id": 3,
+		"title": "Tip Calculator",
+		"img": "assets/img/tip-calculator-app.png",
+		"outline": "An app that calculates the appropriate tip amount and total bill per person when dining out.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": true,
+			"bootstrap": false,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/tip-calculator-app",
+		"demo": "https://www.massidev.com/portfolio/tip-calculator-app/"
+	},
+	{
+		"id": 6,
+		"title": "Fishing Shop",
+		"img": "assets/img/fishingshop.png",
+		"outline": "Web App where you can drag and drop fishes from the counter to the scale, and the price will be calculated accordingly.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": true,
+			"bootstrap": false,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/fishing-shop",
+		"demo": "https://www.massidev.com/portfolio/fishing-shop/"
+	},
+	{
+		"id": 7,
+		"title": "Cocktails Maker",
+		"img": "assets/img/cocktailmaker.png",
+		"outline": "Web app that allows users to search, discover, and view a collection of cocktail recipes. The application offers an animation of the cocktail's composition.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": true,
+			"bootstrap": false,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/cocktailsmaker-app",
+		"demo": "https://www.massidev.com/portfolio/cocktailsmaker/"
+	},
+	{
+		"id": 8,
+		"title": "Pokedex App",
+		"img": "assets/img/pokedex-webapp.png",
+		"outline": "Comprehensive online encyclopedia for Pokémon trainers. It provides a user-friendly interface to explore and discover information about various Pokémon species.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": true,
+			"bootstrap": false,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/pokedex-web-app",
+		"demo": "https://www.massidev.com/portfolio/pokedex-web-app/"
+	},
+	{
+		"id": 9,
+		"title": "Spotify Web",
+		"img": "assets/img/spotify.png",
+		"outline": "Static version of Spotify. I did it during my study of Bootstrap and responsive design practice project.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": false,
+			"bootstrap": true,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/spotify-web-clone",
+		"demo": "https://www.massidev.com/portfolio/spotify-web-clone/"
+	},
+	{
+		"id": 10,
+		"title": "Rugby Website",
+		"img": "assets/img/rugby-website.png",
+		"outline": "Clone website useful to test more advanced CSS in the match cards section and to practice with fetch to JSON file.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": true,
+			"bootstrap": false,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/rugby-website",
+		"demo": "https://www.massidev.com/portfolio/rugby-website/"
+	},
+	{
+		"id": 11,
+		"title": "Drumpad",
+		"img": "assets/img/drumpad.png",
+		"outline": "App that allows you to play drum sounds by clicking on virtual pads. It provides a fun and interactive way to create beats and experiment with different drum sounds.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": true,
+			"bootstrap": false,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/drumpad-app",
+		"demo": "https://www.massidev.com/portfolio/drumpad/"
+	},
+	{
+		"id": 12,
+		"title": "Words Game",
+		"img": "assets/img/words-game.png",
+		"outline": "Web-based game that tests your typing skills by challenging you to correctly type a given word within a certain time limit.",
+		"techs": {
+			"html": true,
+			"css": true,
+			"javascript": true,
+			"bootstrap": false,
+			"react": false
+		},
+		"github": "https://github.com/massi-17/words-game",
+		"demo": "https://www.massidev.com/portfolio/words-game/"
+	}
+]

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400&family=Share+Tech+Mono&display=swap');
+:root {
+    --navBarH: #333333;
+    --navExplorer: #252526;
+    --bgMain: #1E1E1E;
+    --bgTabs: #2D2D2D;
+    --hoverExplorer: #383838;
+    --bgFooter: #127CC9;
+    --hoverIconNavBarH: #AEAEAE;
+    --textNavBar: #7B7B7B;
+    --textNavBarH1: #D8D8D8;
+    --textTabs: #7B7B7B;
+    --textFooter: #EEF2F7;
+    --textPurple: #B07BAF;
+    --textGreen: #53794D;
+    --textBlue: #1A76BD;
+    --textGrey: #444444;
+    --textMain: #4C4C4C;
+    --textYellow: #D7D6A8;
+    --scrollBar: #424242;
+    --green: #00FF15;
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'IBM Plex Mono', monospace;    background-color: grey;
+    color: white;
+   width: 100%;
+    height: 100vh;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+   background-color: #333333;
+  height: 100vh;
+    width: 100%;
+
+    overflow: hidden;
+  }
+.top {
+    display: flex;
+    height: 100vh;
+}
+/* NAVBARH */
+.navbar {
+    background-color: var(--navBarH);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .75rem;
+    margin-bottom: 22px;
+    /* border: 2px solid blue; */
+}
+.top-icon, .bottom-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    color: #AAAAAA!important;
+    cursor: pointer; 
+    align-items: center;
+}
+.selected {
+    color: whitesmoke;
+}
+.iconHover:hover {
+    color: whitesmoke!important;
+}
+/* EXPLORER */
+.explorer {
+    background-color: var(--navExplorer);
+    padding: .80rem 0;
+    color: #C2C2C2;
+    margin-bottom: 22px;
+    /* border: 2px solid rebeccapurple; */
+}
+.explorer h1 {
+    color: #C2C2C2;
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.explorer h2 {
+    text-transform: uppercase;
+    font-size: .75rem;
+    padding: .20rem 1.2rem;
+    margin-bottom: .2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    
+}
+.explorer .ellipsis {
+    padding: .3rem;
+ 
+    border-radius: 5px;
+    cursor: pointer;
+}
+.explorer .ellipsis:hover {
+    background-color: #383838;
+}
+.explorer-files {
+    display: flex;
+    gap: .70rem;
+    align-items: center;
+    font-size: .85rem;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: .20rem 1.2rem .20rem 2rem;
+}
+.explorer-files:hover, .explorer h2:hover {
+    background-color: #383838;
+}
+.main-wrapper {
+    display: flex;
+    width: 100%;
+    background-color: var(--bgMain);
+    overflow: hidden;
+    
+}
+.explorer-files.active {
+    color: var(--green);
+}
+/* TABS */
+main  {
+    width: 100%;
+    height: calc(100vh - 22px);
+    overflow-y: hidden; 
+    margin-bottom: 22px;
+    /* border: 2px solid white; */
+
+}
+.tab-container {
+    white-space: nowrap;
+    background-color: var(--navExplorer);
+    overflow-x: auto;
+    display: flex; 
+    padding: 0 3rem 0 0;
+    /* border: 2px solid red; */
+    height: 45px;
+  }
+  .tab-container::-webkit-scrollbar {
+    background-color: var(--bgMain);
+    height: 8px;
+  }
+  .tab-container::-webkit-scrollbar-thumb {
+    background-color: #333333;
+  }
+  .tab-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.tab-container::-webkit-scrollbar-button:start:decrement {
+    background-color: grey;
+  }
+  .tab-container::-webkit-scrollbar-button:end:increment {
+    background-color: grey;
+  }
+  .tab {
+    display: flex;
+    gap: .50rem;
+    align-items: center;
+    font-size: .85rem;
+    padding: .50rem 1.5rem;
+    margin-right: 1px;
+    background-color: var(--bgTabs);
+    cursor: pointer;
+  }
+  .tab.active {
+    background-color: var(--bgMain);
+    border-top: 1px solid var(--green);
+  }
+  .content {
+   
+    padding: 10px;
+    display: none;
+    
+    overflow-y: auto;
+    height: calc(100vh - 22px - 50px);
+    
+   
+
+    
+  }
+  .content.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+    height: calc(100vh - 22px - 50px);
+  }
+  .content.active::-webkit-scrollbar {
+    background-color: var(--bgMain);
+    height: 8px;
+  }
+  .content.active::-webkit-scrollbar-thumb {
+    background-color: #333333;
+  }
+  .content.active::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.content.active::-webkit-scrollbar-button:start:decrement {
+    background-color: grey;
+  }
+
+footer {
+    background-color: var(--bgFooter);
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .75rem;
+    padding: 0 1rem;
+    position: fixed;
+    height: 22px;
+}
+footer span {
+    cursor: pointer;
+    padding: .25rem .35rem;
+}
+footer span:hover {
+    background-color: #209ff9;
+}
+.footer-lx, .footer-rx {
+    display: flex;
+    margin: 0 .2rem;
+}
+.footer-info > span {
+    padding: .25rem .2rem;
+}
+@media(max-width: 800px) {
+    .explorer {
+        display: none;
+    }
+    .footer-lx span:nth-child(3) {
+        display: none;
+    }
+    .footer-rx span:nth-child(5),
+    .footer-rx span:nth-child(2),
+    .footer-rx span:nth-child(3),
+    .footer-rx span:nth-child(4) {
+        display: none;
+    }
+}   
